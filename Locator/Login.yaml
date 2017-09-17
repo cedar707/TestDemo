@@ -1,0 +1,9 @@
+username:
+  type: id
+  value: account
+password:
+  type: name
+  value: password
+login_btn:
+  type: id
+  value: submit

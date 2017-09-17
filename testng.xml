@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TVCMS TestSuite">
+		<parameter name="dbconfig" value="db.properties" />
+        <parameter name="poolsize" value="10" />
+        <parameter name="test1" value="test12" />
+    <test name="example1">      
+        
+        <classes>
+            <class name="com.cms.ott.ParameterizedTest1" />
+        </classes>
+     
+   </test>
+</suite>
